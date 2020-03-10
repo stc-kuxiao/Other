@@ -23,6 +23,13 @@ public class ExpPlant extends BasePlant {
     }
 
     @Override
+    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
+        if(!worldIn.isRemote){
+            worldIn.addEntity(new ItemEntity(worldIn, pos.getX()+0.5f, pos.getY()+0.5f, pos.getZ()+0.5f, new ItemStack(ModItems.expSeed, 1)));
+        }
+    }
+
+    @Override
     public boolean onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
         if(!worldIn.isRemote){
             if(this.isMaxAge(state)){

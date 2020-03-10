@@ -13,7 +13,7 @@
               "conditions": [
                 {
                   "condition": "minecraft:block_state_property",
-                  "block": "othermod:raw_corn",
+                  "block": "othermod:corn_plant",
                   "properties": {
                     "age": "7"
                   }
@@ -52,7 +52,7 @@
       "conditions": [
         {
           "condition": "minecraft:block_state_property",
-          "block": "othermod:raw_corn",
+          "block": "othermod:corn_plant",
           "properties": {
             "age": "7"
           }
