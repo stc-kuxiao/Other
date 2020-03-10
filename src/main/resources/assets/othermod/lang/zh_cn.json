@@ -1,11 +1,13 @@
 {
   "item.othermod.obsidian_ingot": "黑曜石锭",
   "item.othermod.exp_seed": "经验作物种子",
+  "item.othermod.corn_seed": "玉米作物种子",
   "block.othermod.obsidian_block": "黑曜石块",
   "block.othermod.count_block": "计数方块",
   "block.othermod.filter_block": "过滤方块",
   "block.othermod.exp_ore": "经验矿石",
   "block.othermod.exp_plant": "经验作物",
+  "block.othermod.corn_plant": "赫鲁晓夫作物",
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "白名单物品:%s",
   "itemGroup.othermod": "Other Mod"
