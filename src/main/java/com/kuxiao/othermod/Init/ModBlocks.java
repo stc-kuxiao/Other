@@ -14,5 +14,6 @@ public class ModBlocks {
     public static FilterBlock filterBlock = new FilterBlock("filter_block");
     public static ExpOre expOre = new ExpOre("exp_ore");
     public static ExpPlant expPlant = new ExpPlant("exp_plant");
+    public static CornPlant cornPlant = new CornPlant("corn_plant");
 
 }

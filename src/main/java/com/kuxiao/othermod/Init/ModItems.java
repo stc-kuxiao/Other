@@ -12,4 +12,6 @@ public class ModItems {
 
     public static ObsidianIngot obsidianIngot = new ObsidianIngot("obsidian_ingot");
     public static Item expSeed = new BaseSeed("exp_seed",ModBlocks.expPlant);
+    public static Item cornSeed = new BaseSeed("corn_seed",ModBlocks.cornPlant);
+
 }
