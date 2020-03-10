@@ -2,6 +2,8 @@
   "item.othermod.obsidian_ingot": "黑曜石锭",
   "item.othermod.exp_seed": "经验作物种子",
   "item.othermod.corn_seed": "玉米作物种子",
+  "item.othermod.raw_corn": "玉米棒子",
+  "item.othermod.corn": "熟玉米",
   "block.othermod.obsidian_block": "黑曜石块",
   "block.othermod.count_block": "计数方块",
   "block.othermod.filter_block": "过滤方块",

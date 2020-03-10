@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "othermod:raw_corn"
+  },
+  "result": "othermod:corn",
+  "experience": 0.35,
+  "cookingTime": 200
+}

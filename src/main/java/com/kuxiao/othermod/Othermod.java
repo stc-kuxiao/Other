@@ -1,5 +1,6 @@
 package com.kuxiao.othermod;
 
+import com.kuxiao.othermod.Init.ComposterItems;
 import com.kuxiao.othermod.Init.ModBlocks;
 import com.kuxiao.othermod.proxy.ClientProxy;
 import com.kuxiao.othermod.proxy.IProxy;
@@ -27,6 +28,7 @@ public class Othermod {
 
     private void setup(final FMLCommonSetupEvent event){
         proxy.init();
+        ComposterItems.register();
         setupOreGenerationOverWorld(ModBlocks.expOre,20,1,20,128);
     }
 

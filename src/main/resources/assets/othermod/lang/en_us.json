@@ -2,6 +2,8 @@
   "item.othermod.obsidian_ingot": "Obsidian Ingot",
   "item.othermod.exp_seed": "Exp Seed",
   "item.othermod.corn_seed": "Corn Seed",
+  "item.othermod.raw_corn": "Rew Corn",
+  "item.othermod.corn": "Corn",
   "block.othermod.obsidian_block": "Obsidian Block",
   "block.othermod.count_block": "Count Block",
   "block.othermod.filter_block": "Filter Block",
