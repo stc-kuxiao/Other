@@ -6,16 +6,12 @@ import net.minecraft.block.BlockState;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.state.IntegerProperty;
-import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.world.World;
 
 public class CornPlant extends BasePlant {
-
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_0_3;
 
     public CornPlant(String name) {
         super(name, 0);
