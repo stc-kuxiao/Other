@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "othermod:block/count_block" }
+  }
+}

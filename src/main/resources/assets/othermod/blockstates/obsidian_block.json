@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "othermod:block/obsidian_block" },
+    "facing=south": { "model": "othermod:block/obsidian_block", "y": 180},
+    "facing=west": { "model": "othermod:block/obsidian_block", "y": 270},
+    "facing=east": { "model": "othermod:block/obsidian_block", "y": 90},
+    "facing=up": { "model": "othermod:block/obsidian_block", "x": -90},
+    "facing=down": { "model": "othermod:block/obsidian_block", "x": 90}
+  }
+}

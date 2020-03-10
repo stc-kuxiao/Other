@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "othermod:block/filter_block" },
+    "facing=south": { "model": "othermod:block/filter_block", "y": 180},
+    "facing=west": { "model": "othermod:block/filter_block", "y": 270},
+    "facing=east": { "model": "othermod:block/filter_block", "y": 90},
+    "facing=up": { "model": "othermod:block/filter_block", "x": -90},
+    "facing=down": { "model": "othermod:block/filter_block", "x": 90}
+  }
+}

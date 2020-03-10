@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "othermod:block/filter_block",
+    "down": "othermod:block/filter_block",
+    "up": "othermod:block/filter_block",
+    "east": "othermod:block/filter_block",
+    "west": "othermod:block/filter_block",
+    "north": "othermod:block/filter_block_front",
+    "south": "othermod:block/filter_block"
+  }
+}

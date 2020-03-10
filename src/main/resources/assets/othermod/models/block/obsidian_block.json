@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "othermod:block/obsidian_block",
+    "down": "othermod:block/obsidian_block",
+    "up": "othermod:block/obsidian_block",
+    "east": "othermod:block/obsidian_block",
+    "west": "othermod:block/obsidian_block",
+    "north": "othermod:block/obsidian_block_front",
+    "south": "othermod:block/obsidian_block"
+  }
+}

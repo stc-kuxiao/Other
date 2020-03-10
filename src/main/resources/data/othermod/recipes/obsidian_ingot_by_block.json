@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "othermod:obsidian_block"
+    }
+  ],
+  "result": {
+    "item": "othermod:obsidian_ingot",
+    "count": 9
+  }
+}

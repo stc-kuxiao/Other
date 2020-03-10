@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "particle": "othermod:block/count_block",
+    "down": "othermod:block/count_block",
+    "up": "othermod:block/count_block",
+    "east": "othermod:block/count_block_count",
+    "west": "othermod:block/count_block_count",
+    "north": "othermod:block/count_block_count",
+    "south": "othermod:block/count_block_count"
+  }
+}

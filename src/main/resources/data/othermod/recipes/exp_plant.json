@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "othermod:exp_ore"
+    },
+    "X": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "othermod:exp_plant"
+  }
+}

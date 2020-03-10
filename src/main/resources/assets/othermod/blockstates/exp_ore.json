@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "othermod:block/exp_ore" }
+  }
+}
