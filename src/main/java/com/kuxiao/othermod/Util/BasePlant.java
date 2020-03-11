@@ -14,7 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class BasePlant extends CropsBlock {
-    protected BasePlant(String name, int light) {
+    public BasePlant(String name, int light) {
         super(Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().sound(SoundType.CROP).lightValue(light));
         this.setRegistryName(name);
         ModBlocks.MODBLOCK.add(this);

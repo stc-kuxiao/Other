@@ -1,0 +1,10 @@
+package com.kuxiao.othermod.blocks;
+
+import com.kuxiao.othermod.Util.BasePlantAge3;
+
+public class PaperPlant extends BasePlantAge3 {
+
+    public PaperPlant(String name) {
+        super(name);
+    }
+}
