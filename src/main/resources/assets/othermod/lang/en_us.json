@@ -2,6 +2,7 @@
   "item.othermod.obsidian_ingot": "Obsidian Ingot",
   "item.othermod.exp_seed": "Exp Seed",
   "item.othermod.corn_seed": "Corn Seed",
+  "item.othermod.paper_seed": "Paper Seed",
   "item.othermod.raw_corn": "Rew Corn",
   "item.othermod.corn": "Corn",
   "block.othermod.obsidian_block": "Obsidian Block",
@@ -10,6 +11,7 @@
   "block.othermod.exp_ore": "EXP Ore",
   "block.othermod.exp_plant": "Exp Plant",
   "block.othermod.corn_plant": "Corn Plant",
+  "block.othermod.paper_plant": "Paper Plant",
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "white-list item is:%s",
   "itemGroup.othermod": "Other Mod"

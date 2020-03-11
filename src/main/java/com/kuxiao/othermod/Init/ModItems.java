@@ -12,9 +12,10 @@ import java.util.List;
 public class ModItems {
     public static final List<Item> MODITEMS = new ArrayList<Item>();
 
-    public static ObsidianIngot obsidianIngot = new ObsidianIngot("obsidian_ingot");
+    public static Item obsidianIngot = new ObsidianIngot("obsidian_ingot");
     public static Item expSeed = new BaseSeed("exp_seed",ModBlocks.expPlant);
     public static Item cornSeed = new BaseSeed("corn_seed",ModBlocks.cornPlant);
+    public static Item paperSeed = new BaseSeed("paper_seed",ModBlocks.paperPlant);
     public static Item corn = new Corn("corn",4,1.5f);
     public static Item rawCorn = new raw_corn("raw_corn",1,0.6f);
 

@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "othermod:block/paper_plant_stage1"
+  }
+}
