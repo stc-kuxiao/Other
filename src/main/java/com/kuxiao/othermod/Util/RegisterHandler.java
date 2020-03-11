@@ -1,7 +1,7 @@
 package com.kuxiao.othermod.Util;
 
-import com.kuxiao.othermod.Init.ModItems;
 import com.kuxiao.othermod.Init.ModBlocks;
+import com.kuxiao.othermod.Init.ModItems;
 import com.kuxiao.othermod.tilesentities.ModTileEntitiesType;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;

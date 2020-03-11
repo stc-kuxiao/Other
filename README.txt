@@ -4,6 +4,8 @@ now has:
 exp plant,corn plant,paper plant
 exp ore
 obsidian block,obsidian ingot
+all obsidian tools
+all obsidian armor
 raw_corn,corn
 counter block,filter block
 GenOre,rightClick plant
@@ -26,6 +28,8 @@ Destroying mature crops will drop paper
 经验作物，玉米作物，纸作物
 经验矿石，
 黑曜石块，黑曜石锭
+黑曜石工具全套
+黑曜石装备全套
 生玉米，熟玉米
 计数器，过滤器
 矿物生成，作物右键收获

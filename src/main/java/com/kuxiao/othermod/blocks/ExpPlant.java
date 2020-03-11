@@ -22,9 +22,8 @@ public class ExpPlant extends BasePlant {
         super(name,10);
     }
 
-    /**
-     * 破坏方块掉落物品，只因为json太难写(((
-     */
+
+     //破坏方块掉落物品，只因为json太难写(((
 //    @Override
 //    public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
 //        if(!worldIn.isRemote){
