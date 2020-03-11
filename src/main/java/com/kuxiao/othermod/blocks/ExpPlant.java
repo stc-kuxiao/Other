@@ -37,7 +37,7 @@ public class ExpPlant extends BasePlant {
         if(!worldIn.isRemote){
             if(this.isMaxAge(state)){
                 int rd = worldIn.rand.nextInt(20);
-                if(rd>15){rd=3;}else if(rd>10){rd=2;}else if(rd>05){rd=1;}else {rd=0;}
+                rd = rd>15?1:0;
                 worldIn.addEntity(new ItemEntity(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.expSeed, rd)));
                 this.getExpDrop(state,worldIn,pos,0,0);
                 worldIn.setBlockState(pos, this.withAge(0));

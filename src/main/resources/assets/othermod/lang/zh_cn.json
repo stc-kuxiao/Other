@@ -11,7 +11,7 @@
   "block.othermod.exp_ore": "经验矿石",
   "block.othermod.exp_plant": "经验作物",
   "block.othermod.corn_plant": "赫鲁晓夫作物",
-  "block.othermod.paper_plant": "纸夫作物",
+  "block.othermod.paper_plant": "纸作物",
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "白名单物品:%s",
   "itemGroup.othermod": "Other Mod"
