@@ -40,17 +40,4 @@ public class BasePlant extends CropsBlock {
         return new ItemStack(this.getSeedsItem());
     }
 
-//    @Override
-//    public boolean onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
-//        if(!world.isRemote)
-//        {
-//            if(this.isMaxAge(state))
-//            {
-//                world.addEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(<ItemPlants>, world.rand.nextInt(3) + 1)));
-//                world.setBlockState(pos, this.withAge(0));
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
 }

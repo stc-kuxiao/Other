@@ -1,17 +1,27 @@
 package com.kuxiao.othermod.Util;
 
 import net.minecraft.block.BlockState;
+import net.minecraft.entity.item.ItemEntity;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.state.IntegerProperty;
 import net.minecraft.state.properties.BlockStateProperties;
+import net.minecraft.util.Hand;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
-public class BasePlantAge3 extends BasePlantNoLight {
+public abstract class BasePlantAge3 extends BasePlantNoLight {
 
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_0_3;
+    private static final IntegerProperty AGE = BlockStateProperties.AGE_0_3;
 
-    public BasePlantAge3(String name) {
+    private Item fruit;
+
+    public BasePlantAge3(String name,Item item) {
         super(name);
+        setFruit(item);
     }
 
     @Override
@@ -42,5 +52,21 @@ public class BasePlantAge3 extends BasePlantNoLight {
     @Override
     protected int getBonemealAgeIncrease(World worldIn) {
         return MathHelper.nextInt(worldIn.rand, 2, 5);
+    }
+
+    protected void setFruit(Item item){
+        fruit = item;
+    }
+
+    @Override
+    public boolean onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
+        if(!worldIn.isRemote){
+            if(this.isMaxAge(state)){
+                worldIn.addEntity(new ItemEntity(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(fruit, worldIn.rand.nextInt(3) + 1)));
+                worldIn.setBlockState(pos, this.withAge(0));
+                return true;
+            }
+        }
+        return false;
     }
 }
