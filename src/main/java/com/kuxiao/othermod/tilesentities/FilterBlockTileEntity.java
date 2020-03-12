@@ -18,6 +18,8 @@ import javax.annotation.Nullable;
 
 public class FilterBlockTileEntity extends TileEntity {
 
+    /*记得去注册！*/
+
     private LazyOptional<IItemHandler> handler = LazyOptional.of(this::createHandler);
 
     public FilterBlockTileEntity() {
@@ -31,6 +33,8 @@ public class FilterBlockTileEntity extends TileEntity {
             @Nonnull
             @Override
             public ItemStack insertItem(int slot, @Nonnull ItemStack stack, boolean simulate) {
+                /*插入物品*/
+                /*wlitem是白名单物品*/
                 if (stack.getItem() != wlitem) {
                     return stack;
                 }
@@ -39,6 +43,7 @@ public class FilterBlockTileEntity extends TileEntity {
 
             @Override
             public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
+                /*可以传输否*/
                 return stack.getItem() == wlitem;
             }
         };
@@ -49,6 +54,8 @@ public class FilterBlockTileEntity extends TileEntity {
     @Nonnull
     @Override
     public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> cap, @Nullable Direction side) {
+        /*获得能力 */
+        /*ITEM_HANDLER_CAPABILITY 物品操纵能力*/
         if (cap == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
             return handler.cast();
         }
@@ -66,6 +73,7 @@ public class FilterBlockTileEntity extends TileEntity {
         super.read(compound);
     }
 
+    @Nonnull
     @Override
     public CompoundNBT write(CompoundNBT compound) {
         handler.ifPresent(h->{
@@ -77,7 +85,7 @@ public class FilterBlockTileEntity extends TileEntity {
         return super.write(compound);
     }
 
-    public Item chengeItem(Item citem){
+    public Item changeItem(Item citem){
         wlitem = citem;
         markDirty();
         return wlitem;

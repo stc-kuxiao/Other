@@ -9,6 +9,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 
 public enum ArmorMaterialList implements IArmorMaterial {
+
     /**
      * name:材质注册名
      * durability:耐久 * MAX_DAMAGE_ARRAY[Index]
@@ -18,6 +19,7 @@ public enum ArmorMaterialList implements IArmorMaterial {
      * equipSound：穿着声音
      * toughness：韧性(钻石套为2)
      */
+
     obsidian("obsidian",400,new int[]{8,10,9,7},25,ModItems.obsidianIngot,"entity.ender_dragon.growl",0.0f);
 
     public static final int[] MAX_DAMAGE_ARRAY = new int[]{13,15,16,11};

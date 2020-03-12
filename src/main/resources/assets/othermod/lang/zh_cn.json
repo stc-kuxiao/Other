@@ -15,6 +15,7 @@
   "item.othermod.obsidian_chestplate": "黑曜石胸甲",
   "item.othermod.obsidian_leggings": "黑曜石护腿",
   "item.othermod.obsidian_boots": "黑曜石鞋子",
+  "block.othermod.sieves_block": "筛子",
   "block.othermod.obsidian_block": "黑曜石块",
   "block.othermod.count_block": "计数方块",
   "block.othermod.filter_block": "过滤方块",
@@ -25,5 +26,6 @@
   "block.othermod.steak_plant": "牛排作物",
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "白名单物品:%s",
+  "message.othermod.sieves": "这个筛子筛过了<%s>泥土",
   "itemGroup.othermod": "Other Mod"
 }

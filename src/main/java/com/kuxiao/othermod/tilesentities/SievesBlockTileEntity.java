@@ -3,7 +3,7 @@ package com.kuxiao.othermod.tilesentities;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tileentity.TileEntity;
 
-public class CounterBlockTileEntity extends TileEntity {
+public class SievesBlockTileEntity extends TileEntity {
 
     private int counter=0;
 
@@ -24,20 +24,19 @@ public class CounterBlockTileEntity extends TileEntity {
         return counter;
     }
 
-
-    public CounterBlockTileEntity() {
-        super(ModTileEntitiesType.counterBlockTileEntityType);
+    public SievesBlockTileEntity() {
+        super(ModTileEntitiesType.sievesBlockTileEntityType);
     }
 
     @Override
     public void read(CompoundNBT compound) {
         super.read(compound);
-        counter = compound.getInt("counter");
+        counter = compound.getInt("sieves");
     }
 
     @Override
     public CompoundNBT write(CompoundNBT compound) {
-        compound.putInt("counter",counter);
+        compound.putInt("sieves",counter);
         super.write(compound);
         return compound;
     }

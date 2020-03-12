@@ -68,7 +68,7 @@ public class FilterBlock extends BaseBlock {
     public boolean onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
         if(!worldIn.isRemote) {
             Item sitem;
-            sitem = player.getHeldItemMainhand().isEmpty()?getTE(worldIn,pos).getItem():getTE(worldIn,pos).chengeItem(player.getHeldItemMainhand().getItem());
+            sitem = player.getHeldItemMainhand().isEmpty()?getTE(worldIn,pos).getItem():getTE(worldIn,pos).changeItem(player.getHeldItemMainhand().getItem());
             TranslationTextComponent translationTextComponent = new TranslationTextComponent("message.othermod.sitem",sitem.getName());
             translationTextComponent.getStyle().setColor(TextFormatting.BLUE);
             player.sendStatusMessage(translationTextComponent,false);

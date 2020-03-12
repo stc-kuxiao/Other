@@ -15,6 +15,7 @@
   "item.othermod.obsidian_chestplate": "Obsidian ChestPlate",
   "item.othermod.obsidian_leggings": "Obsidian Leggings",
   "item.othermod.obsidian_boots": "Obsidian Boots",
+  "block.othermod.sieves_block": "Sieves",
   "block.othermod.obsidian_block": "Obsidian Block",
   "block.othermod.count_block": "Count Block",
   "block.othermod.filter_block": "Filter Block",
@@ -25,5 +26,6 @@
   "block.othermod.steak_plant": "Steak Plant",
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "white-list item is:%s",
+  "message.othermod.sieves": "this sieves input<%s>dirt",
   "itemGroup.othermod": "Other Mod"
 }

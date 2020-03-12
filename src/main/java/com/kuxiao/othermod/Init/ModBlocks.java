@@ -17,5 +17,6 @@ public class ModBlocks {
     public static Block cornPlant = new CornPlant("corn_plant");
     public static Block paperPlant = new PaperPlant("paper_plant");
     public static Block steakPlant = new steakPlant("steak_plant");
+    public static Block sievesBlock = new sievesBlock("sieves_block");
 
 }
