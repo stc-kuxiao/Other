@@ -1,5 +1,5 @@
 -------------------------------------------
-this mod is a test mod,Most of it is copied(XD
+As a test mod, most of it is copied (XD
 now has:
 exp plant,corn plant,paper plant
 exp ore
