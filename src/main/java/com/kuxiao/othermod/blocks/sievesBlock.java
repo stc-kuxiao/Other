@@ -3,7 +3,7 @@ package com.kuxiao.othermod.blocks;
 import com.kuxiao.othermod.Init.ModBlocks;
 import com.kuxiao.othermod.Init.ModItems;
 import com.kuxiao.othermod.Util.BaseGlass;
-import com.kuxiao.othermod.Util.DropItem;
+import com.kuxiao.othermod.Util.Utils;
 import com.kuxiao.othermod.tilesentities.ModTileEntitiesType;
 import com.kuxiao.othermod.tilesentities.SievesBlockTileEntity;
 import net.minecraft.block.BlockState;
@@ -78,13 +78,13 @@ public class sievesBlock extends BaseGlass {
                 }
                 int rd;
                 rd = worldIn.rand.nextInt(maxRand);
-                if(rd>=0 && rd <= expSeedRand){DropItem.dropItem(worldIn,pos, ModItems.expSeed,1,true);}
+                if(rd>=0 && rd <= expSeedRand){Utils.dropItem(worldIn,pos, ModItems.expSeed,1,true);}
                 rd = worldIn.rand.nextInt(maxRand);
-                if(rd>=0 && rd <= steakSeedRand){DropItem.dropItem(worldIn,pos, ModItems.steakSeed,1,true);}
+                if(rd>=0 && rd <= steakSeedRand){Utils.dropItem(worldIn,pos, ModItems.steakSeed,1,true);}
                 rd = worldIn.rand.nextInt(maxRand);
-                if(rd>=0 && rd <= paperSeedRand){DropItem.dropItem(worldIn,pos, ModItems.paperSeed,1,true);}
+                if(rd>=0 && rd <= paperSeedRand){Utils.dropItem(worldIn,pos, ModItems.paperSeed,1,true);}
                 rd = worldIn.rand.nextInt(maxRand);
-                if(rd>=0 && rd <= cornSeedRand){DropItem.dropItem(worldIn,pos, ModItems.cornSeed,1,true);}
+                if(rd>=0 && rd <= cornSeedRand){Utils.dropItem(worldIn,pos, ModItems.cornSeed,1,true);}
 
                 return true;
             }else if(itemStack.getItem() == ModItems.obsidianIngot){
@@ -99,7 +99,7 @@ public class sievesBlock extends BaseGlass {
     @Override
     public void onBlockHarvested(World worldIn, BlockPos pos, BlockState state, PlayerEntity player) {
         if(!worldIn.isRemote && !player.abilities.isCreativeMode){
-            DropItem.dropItem(worldIn,pos, ModBlocks.sievesBlock.asItem(),1);
+            Utils.dropItem(worldIn,pos, ModBlocks.sievesBlock.asItem(),1);
         }
         super.onBlockHarvested(worldIn, pos, state, player);
     }
