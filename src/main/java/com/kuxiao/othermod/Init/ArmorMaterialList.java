@@ -39,7 +39,7 @@ public enum ArmorMaterialList implements IArmorMaterial {
 
     @Override
     public int getDurability(EquipmentSlotType slotIn) {
-        return MAX_DAMAGE_ARRAY[slotIn.getSlotIndex()]*this.durability;
+        return MAX_DAMAGE_ARRAY[slotIn.getIndex()]*this.durability;
     }
 
     @Override

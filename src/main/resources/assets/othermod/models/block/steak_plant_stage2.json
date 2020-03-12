@@ -1,0 +1,6 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "othermod:block/steak_plant_stage2"
+  }
+}

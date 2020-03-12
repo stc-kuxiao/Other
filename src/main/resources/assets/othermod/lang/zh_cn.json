@@ -3,6 +3,7 @@
   "item.othermod.exp_seed": "经验作物种子",
   "item.othermod.corn_seed": "玉米作物种子",
   "item.othermod.paper_seed": "纸作物种子",
+  "item.othermod.steak_seed": "牛排作物种子",
   "item.othermod.raw_corn": "玉米棒子",
   "item.othermod.corn": "熟玉米",
   "item.othermod.obsidian_axe": "黑曜石斧",
@@ -21,6 +22,7 @@
   "block.othermod.exp_plant": "经验作物",
   "block.othermod.corn_plant": "赫鲁晓夫作物",
   "block.othermod.paper_plant": "纸作物",
+  "block.othermod.steak_plant": "牛排作物",
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "白名单物品:%s",
   "itemGroup.othermod": "Other Mod"

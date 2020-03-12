@@ -16,5 +16,6 @@ public class ModBlocks {
     public static Block expPlant = new ExpPlant("exp_plant");
     public static Block cornPlant = new CornPlant("corn_plant");
     public static Block paperPlant = new PaperPlant("paper_plant");
+    public static Block steakPlant = new steakPlant("steak_plant");
 
 }
