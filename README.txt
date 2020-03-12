@@ -9,9 +9,12 @@ all obsidian armor
 raw_corn,corn
 counter block,filter block
 sieves
+tender tofu, normal tofu
 use dirt rightClick sieves can spawn OtherMod's seeds
 use obsidian ingot rightClick sieves can show this sieves input item
 GenOre,rightClick plant
+*****************************
+Jumping on the tender tofu block will cause it to break, generating 1 to 4 tender tofu
 *****************************
 expPlant has 7 age
 Experience and seeds can only get one of them
@@ -36,10 +39,13 @@ Destroying mature crops will drop paper
 生玉米，熟玉米
 计数器，过滤器
 筛子
+嫩豆腐，豆腐
 用泥土右键筛子可以筛出本模组的种子
 用黑曜石锭右键筛子可以显示这个筛子筛过多少物品
 矿物生成，作物右键收获
 暂时就这些~
+*****************************
+在嫩豆腐块上跳跃会使得它破碎，生成1~4个嫩豆腐
 *****************************
 经验作物有7个age
 经验作物的种子和经验不可兼得，
