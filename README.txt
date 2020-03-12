@@ -8,6 +8,9 @@ all obsidian tools
 all obsidian armor
 raw_corn,corn
 counter block,filter block
+sieves
+use dirt rightClick sieves can spawn OtherMod's seeds
+use obsidian ingot rightClick sieves can show this sieves input item
 GenOre,rightClick plant
 *****************************
 expPlant has 7 age
@@ -32,6 +35,9 @@ Destroying mature crops will drop paper
 黑曜石装备全套
 生玉米，熟玉米
 计数器，过滤器
+筛子
+用泥土右键筛子可以筛出本模组的种子
+用黑曜石锭右键筛子可以显示这个筛子筛过多少物品
 矿物生成，作物右键收获
 暂时就这些~
 *****************************
