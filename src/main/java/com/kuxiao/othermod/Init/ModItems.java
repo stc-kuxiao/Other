@@ -1,6 +1,5 @@
 package com.kuxiao.othermod.Init;
 
-import com.kuxiao.othermod.Items.TestItem;
 import com.kuxiao.othermod.Util.*;
 import net.minecraft.item.Item;
 
@@ -10,8 +9,6 @@ import java.util.List;
 public class ModItems {
     public static final List<Item> MODITEMS = new ArrayList<Item>();
 
-
-    public static Item testItem = new TestItem("test_item");
 
     public static Item obsidianAxe = BaseTools.createTools("obsidian_axe", BaseTools.TOOL.Axe,ToolMaterialList.obsidian,-1,2.0f);
     public static Item obsidianHoe = BaseTools.createTools("obsidian_hoe", BaseTools.TOOL.Hoe,ToolMaterialList.obsidian,-2,2.0f);
