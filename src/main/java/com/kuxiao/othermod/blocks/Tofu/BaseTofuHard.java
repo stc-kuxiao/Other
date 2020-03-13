@@ -1,4 +1,4 @@
-package com.kuxiao.othermod.blocks.ToFu;
+package com.kuxiao.othermod.blocks.Tofu;
 
 import com.kuxiao.othermod.Util.BaseBlock;
 import com.kuxiao.othermod.Util.Utils;
@@ -10,9 +10,11 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.common.ToolType;
 
-public class BaseTofuBlock extends BaseBlock {
-    public BaseTofuBlock(String name, int harvestLevel, float hardness) {
-        super(name, Material.CLAY, harvestLevel, ToolType.SHOVEL, hardness, SoundType.STONE);
+import java.util.Random;
+
+public class BaseTofuHard extends BaseBlock {
+    public BaseTofuHard(String name, int harvestLevel, float hardness) {
+        super(name, Material.ROCK, harvestLevel, ToolType.PICKAXE, hardness, SoundType.STONE);
     }
 
     @Override
@@ -22,4 +24,15 @@ public class BaseTofuBlock extends BaseBlock {
         }
         super.onBlockHarvested(worldIn, pos, state, player);
     }
+
+    @Override
+    public void animateTick(BlockState stateIn, World worldIn, BlockPos pos, Random rand) {
+        super.animateTick(stateIn, worldIn, pos, rand);
+    }
+
+    @Override
+    public boolean ticksRandomly(BlockState state) {
+        return super.ticksRandomly(state);
+    }
+
 }

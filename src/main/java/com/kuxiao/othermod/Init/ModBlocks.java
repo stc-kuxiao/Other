@@ -1,8 +1,9 @@
 package com.kuxiao.othermod.Init;
 
 import com.kuxiao.othermod.blocks.*;
-import com.kuxiao.othermod.blocks.ToFu.BaseTofuBlock;
-import com.kuxiao.othermod.blocks.ToFu.TofuBlockTender;
+import com.kuxiao.othermod.blocks.Tofu.NormalTofu;
+import com.kuxiao.othermod.blocks.Tofu.StoneTofu;
+import com.kuxiao.othermod.blocks.Tofu.TofuBlockTender;
 import net.minecraft.block.Block;
 
 import java.util.ArrayList;
@@ -21,6 +22,8 @@ public class ModBlocks {
     public static Block steakPlant = new steakPlant("steak_plant");
     public static Block sievesBlock = new sievesBlock("sieves_block");
     public static Block tofuBlockTender = new TofuBlockTender("tofu_block_tender");
-    public static Block tofuBlockNormal = new BaseTofuBlock("tofu_block_normal",0,1.0f);
+    public static Block tofuBlockNormal = new NormalTofu("tofu_block_normal",0,1.0f);
+    public static Block tofuBlockStone = new StoneTofu("tofu_block_stone",1,1.5f);
+
 
 }

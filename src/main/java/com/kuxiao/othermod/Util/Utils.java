@@ -12,6 +12,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 
+import java.util.Random;
+
 public class Utils {
 
 
@@ -22,6 +24,8 @@ public class Utils {
         }
 
     };
+
+    public static final Random RANDOM = new Random();
 
     public static boolean isCreativeMode(PlayerEntity player){
         return player.abilities.isCreativeMode;

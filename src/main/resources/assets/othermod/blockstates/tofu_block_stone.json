@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "othermod:block/tofu_block_stone" }
+  }
+}

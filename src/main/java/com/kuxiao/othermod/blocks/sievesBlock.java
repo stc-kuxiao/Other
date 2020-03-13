@@ -70,10 +70,7 @@ public class sievesBlock extends BaseGlass {
             ItemStack itemStack = player.getHeldItem(handIn);
             if(itemStack.getItem() == Items.DIRT){
                 getTE(worldIn,pos).increase();
-
-                /*不是创造模式*/
                 if(!player.abilities.isCreativeMode) {
-                    /*手中物品-1*/
                     itemStack.shrink(1);
                 }
                 int rd;

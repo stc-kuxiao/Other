@@ -2,12 +2,9 @@
 <DOWN>筛子 --方块模型设计 --能力系统
 <DOWN>豆腐 --跳跃破坏豆腐
 <TODO>豆腐 --压制豆腐(updateTick_1.12.2)
+    <INFO>animateTick//每个tick都会调用
+    <INFO>ticksRandomly//每个随机刻调用,右键方块时也会触发
 <TODO>流体放置
 <TODO>卤水点豆腐
 
 
-
-observedNeighborChange//直译：观察到的邻居变化
-onNeighborChange//改变邻居
-neighborChanged//邻居已更改
-getWeakChanges//得到微弱的变化

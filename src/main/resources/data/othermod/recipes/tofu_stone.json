@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "othermod:tofu_block_stone"
+    }
+  ],
+  "result": {
+    "item": "othermod:tofu_stone",
+    "count": 4
+  }
+}

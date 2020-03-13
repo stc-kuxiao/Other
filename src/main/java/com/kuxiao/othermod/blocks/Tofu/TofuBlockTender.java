@@ -1,4 +1,4 @@
-package com.kuxiao.othermod.blocks.ToFu;
+package com.kuxiao.othermod.blocks.Tofu;
 
 import com.kuxiao.othermod.Init.ModItems;
 import com.kuxiao.othermod.Util.BaseBlock;
@@ -36,6 +36,10 @@ public class TofuBlockTender extends BaseBlock {
      * 从10格高的地方跳下       9.667067
      * 从20格高的地方跳下       18.772945
      * 注：按住shift不会触发此函数
+     * @param worldIn
+     * @param pos
+     * @param entityIn
+     * @param fallDistance
      */
     @Override
     public void onFallenUpon(World worldIn, BlockPos pos, Entity entityIn, float fallDistance) {
@@ -47,23 +51,6 @@ public class TofuBlockTender extends BaseBlock {
         }
         super.onFallenUpon(worldIn, pos, entityIn, fallDistance);
     }
-
-
-    /*
-    //TODO 豆腐上跳跃豆腐会碎
-    // 本来想做在豆腐上跳跃他就会碎，但是找不到判断player跳跃的代码
-    //暂时割弃
-    @Override
-    public void onEntityWalk(World worldIn, BlockPos pos, Entity entityIn) {
-        if(entityIn instanceof PlayerEntity) {
-            PlayerEntity player = (PlayerEntity)entityIn;
-            System.out.println("Hit!");
-            System.out.println(player.jumpMovementFactor);
-            //this.onBlockHarvested(worldIn,pos,worldIn.getBlockState(pos),(PlayerEntity)entityIn);
-        }
-        super.onEntityWalk(worldIn, pos, entityIn);
-    }
-    */
 
 
 }
