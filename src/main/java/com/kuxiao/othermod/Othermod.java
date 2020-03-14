@@ -6,6 +6,7 @@ import com.kuxiao.othermod.proxy.ClientProxy;
 import com.kuxiao.othermod.proxy.IProxy;
 import com.kuxiao.othermod.proxy.ServerProxy;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -22,8 +23,10 @@ public class Othermod {
     public static IProxy proxy = DistExecutor.runForDist(()-> ClientProxy::new,()-> ServerProxy::new);
 
     public Othermod() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        modEventBus.addListener(this::setup);
         MinecraftForge.EVENT_BUS.register(this);
+
     }
 
     private void setup(final FMLCommonSetupEvent event){
@@ -31,5 +34,7 @@ public class Othermod {
         ComposterItems.register();
         setupOreGenerationOverWorld(ModBlocks.expOre,20,1,20,128);
     }
+
+
 
 }

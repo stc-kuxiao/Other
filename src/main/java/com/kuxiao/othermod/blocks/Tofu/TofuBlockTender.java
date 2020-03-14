@@ -1,7 +1,7 @@
 package com.kuxiao.othermod.blocks.Tofu;
 
 import com.kuxiao.othermod.Init.ModItems;
-import com.kuxiao.othermod.Util.BaseBlock;
+import com.kuxiao.othermod.base.BaseBlock;
 import com.kuxiao.othermod.Util.Utils;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;

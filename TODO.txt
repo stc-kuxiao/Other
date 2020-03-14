@@ -2,7 +2,7 @@
 <complete>筛子 --方块模型设计 --能力系统
 <complete>豆腐 --跳跃破坏豆腐
 <complete>豆腐 --压制豆腐
-<TODO>流体放置
+<complete>流体放置 --一天的成果
 <TODO>卤水点豆腐
 
 

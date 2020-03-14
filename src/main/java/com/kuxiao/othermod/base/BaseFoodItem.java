@@ -1,6 +1,7 @@
-package com.kuxiao.othermod.Util;
+package com.kuxiao.othermod.base;
 
 import com.kuxiao.othermod.Init.ModItems;
+import com.kuxiao.othermod.Util.Utils;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 

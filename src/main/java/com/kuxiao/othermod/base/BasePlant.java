@@ -1,4 +1,4 @@
-package com.kuxiao.othermod.Util;
+package com.kuxiao.othermod.base;
 
 import com.kuxiao.othermod.Init.ModBlocks;
 import net.minecraft.block.BlockState;

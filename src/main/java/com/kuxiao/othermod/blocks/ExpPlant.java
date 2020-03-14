@@ -1,7 +1,7 @@
 package com.kuxiao.othermod.blocks;
 
 import com.kuxiao.othermod.Init.ModItems;
-import com.kuxiao.othermod.Util.BasePlant;
+import com.kuxiao.othermod.base.BasePlant;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.item.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;

@@ -1,5 +1,6 @@
-package com.kuxiao.othermod.Util;
+package com.kuxiao.othermod.base;
 
+import com.kuxiao.othermod.Util.Utils;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 

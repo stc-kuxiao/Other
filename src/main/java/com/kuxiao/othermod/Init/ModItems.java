@@ -1,6 +1,7 @@
 package com.kuxiao.othermod.Init;
 
-import com.kuxiao.othermod.Util.*;
+import com.kuxiao.othermod.Items.BitternBottle;
+import com.kuxiao.othermod.base.*;
 import net.minecraft.item.Item;
 
 import java.util.ArrayList;
@@ -17,6 +18,9 @@ public class ModItems {
     public static Item obsidianSword = BaseTools.createTools("obsidian_sword", BaseTools.TOOL.Sword,ToolMaterialList.obsidian,0,2.0f);
     public static BaseArmor obsidianArmor = new BaseArmor("obsidian",ArmorMaterialList.obsidian);
 
+    public static Item oilBucket = new BaseBucket("oil_bucket",()-> ModFluids.OIL);
+    public static Item beanMilkBucket = new BaseBucket("bean_milk_bucket",()-> ModFluids.BEAN_MILK);
+
     public static Item obsidianIngot = new BaseItem("obsidian_ingot");
     public static Item expSeed = new BaseSeed("exp_seed",ModBlocks.expPlant);
     public static Item cornSeed = new BaseSeed("corn_seed",ModBlocks.cornPlant);
@@ -27,6 +31,8 @@ public class ModItems {
     public static Item tofuNormal = new BaseFoodItem("tofu_normal",2,1.0f);
     public static Item tofuTender = new BaseFoodItem("tofu_tender",2,1.2f);
     public static Item tofuStone = new BaseItem("tofu_stone");
+    public static Item salt = new BaseItem("salt");
+    public static Item bitternBottle = new BitternBottle("bittern_bottle");
 
 
 

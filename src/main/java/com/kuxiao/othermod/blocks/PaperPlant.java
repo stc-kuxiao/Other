@@ -1,6 +1,6 @@
 package com.kuxiao.othermod.blocks;
 
-import com.kuxiao.othermod.Util.BasePlantAge3;
+import com.kuxiao.othermod.base.BasePlantAge3;
 import net.minecraft.item.Items;
 
 public class PaperPlant extends BasePlantAge3 {

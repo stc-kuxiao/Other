@@ -15,12 +15,16 @@ import java.util.Objects;
 
 @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
 public class RegisterHandler {
+
+
     @SubscribeEvent
     public static void onBlocksRegistry(RegistryEvent.Register<Block> event) {
         for(Block block:ModBlocks.MODBLOCK){
             event.getRegistry().register(block);
         }
-
+        for(Block block:ModBlocks.MODBLOCK_ONLY){
+            event.getRegistry().register(block);
+        }
     }
 
     @SubscribeEvent
@@ -35,6 +39,7 @@ public class RegisterHandler {
             );
         }
     }
+
 
     @SubscribeEvent
     public static void onTileEntitiesRegistry(RegistryEvent.Register<TileEntityType<?>> event) {

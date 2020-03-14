@@ -1,6 +1,6 @@
 package com.kuxiao.othermod.blocks;
 
-import com.kuxiao.othermod.Util.BaseBlock;
+import com.kuxiao.othermod.base.BaseBlock;
 import com.kuxiao.othermod.tilesentities.FilterBlockTileEntity;
 import com.kuxiao.othermod.tilesentities.ModTileEntitiesType;
 import net.minecraft.block.Block;

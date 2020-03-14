@@ -1,6 +1,6 @@
 package com.kuxiao.othermod.blocks;
 
-import com.kuxiao.othermod.Util.BaseBlock;
+import com.kuxiao.othermod.base.BaseBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;

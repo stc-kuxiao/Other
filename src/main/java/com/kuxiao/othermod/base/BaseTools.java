@@ -1,7 +1,8 @@
-package com.kuxiao.othermod.Util;
+package com.kuxiao.othermod.base;
 
 import com.kuxiao.othermod.Init.ModItems;
 import com.kuxiao.othermod.Init.ToolMaterialList;
+import com.kuxiao.othermod.Util.Utils;
 import net.minecraft.item.*;
 
 public class BaseTools{
