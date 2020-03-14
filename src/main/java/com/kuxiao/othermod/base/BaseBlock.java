@@ -8,6 +8,7 @@ import net.minecraftforge.common.ToolType;
 
 public class BaseBlock extends Block {
     /**
+     * 注册物品
      * @param name 注册名
      * @param material 材质
      * @param harvestLevel 挖掘等级

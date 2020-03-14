@@ -3,6 +3,8 @@
 <complete>豆腐 --跳跃破坏豆腐
 <complete>豆腐 --压制豆腐
 <complete>流体放置 --一天的成果
-<TODO>卤水点豆腐
+<complete>卤水点豆腐
+<complete>晒盐场
+<complete>卤水的制备方案
 
 

@@ -2,6 +2,7 @@ package com.kuxiao.othermod.Init;
 
 import com.kuxiao.othermod.base.BaseFluidBlock;
 import com.kuxiao.othermod.blocks.*;
+import com.kuxiao.othermod.blocks.Tofu.IronTofu;
 import com.kuxiao.othermod.blocks.Tofu.NormalTofu;
 import com.kuxiao.othermod.blocks.Tofu.StoneTofu;
 import com.kuxiao.othermod.blocks.Tofu.TofuBlockTender;
@@ -13,6 +14,9 @@ import java.util.List;
 public class ModBlocks {
     public static final List<Block> MODBLOCK = new ArrayList<Block>();
     public static final List<Block> MODBLOCK_ONLY = new ArrayList<Block>();
+
+    public static Block oilBlock = new BaseFluidBlock("oil",()-> ModFluids.OIL);
+    public static Block beanMilkBlock = new BaseFluidBlock("bean_milk",()->ModFluids.BEAN_MILK);
 
 
     public static Block obsidianBlock = new ObsidianBlock("obsidian_block");
@@ -27,9 +31,9 @@ public class ModBlocks {
     public static Block tofuBlockTender = new TofuBlockTender("tofu_block_tender");
     public static Block tofuBlockNormal = new NormalTofu("tofu_block_normal",0,1.0f);
     public static Block tofuBlockStone = new StoneTofu("tofu_block_stone",1,1.5f);
+    public static Block tofuBlockIron = new IronTofu("tofu_block_iron",2,2.0f);
+    public static Block saltField = new SaltField("salt_field");
 
-    public static Block oilBlock = new BaseFluidBlock("oil",()-> ModFluids.OIL);
-    public static Block beanMilkBlock = new BaseFluidBlock("bean_milk",()->ModFluids.BEAN_MILK);
 
 
 }

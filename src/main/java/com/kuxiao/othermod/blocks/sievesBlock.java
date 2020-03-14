@@ -66,9 +66,9 @@ public class sievesBlock extends BaseGlass {
 
     @Override
     public boolean onBlockActivated(BlockState state, World worldIn, BlockPos pos, PlayerEntity player, Hand handIn, BlockRayTraceResult hit) {
-        if(!worldIn.isRemote){
-            ItemStack itemStack = player.getHeldItem(handIn);
-            if(itemStack.getItem() == Items.DIRT){
+        ItemStack itemStack = player.getHeldItem(handIn);
+        if(itemStack.getItem() == Items.DIRT){
+            if(!worldIn.isRemote){
                 getTE(worldIn,pos).increase();
                 if(!player.abilities.isCreativeMode) {
                     itemStack.shrink(1);
@@ -82,13 +82,15 @@ public class sievesBlock extends BaseGlass {
                 if(rd>=0 && rd <= paperSeedRand){Utils.dropItem(worldIn,pos, ModItems.paperSeed,1,true);}
                 rd = worldIn.rand.nextInt(maxRand);
                 if(rd>=0 && rd <= cornSeedRand){Utils.dropItem(worldIn,pos, ModItems.cornSeed,1,true);}
-
-                return true;
-            }else if(itemStack.getItem() == ModItems.obsidianIngot){
+            }
+            return true;
+        }else if(itemStack.getItem() == ModItems.obsidianIngot){
+            if(!worldIn.isRemote){
                 TranslationTextComponent translationTextComponent = new TranslationTextComponent("message.othermod.sieves",getTE(worldIn,pos).getCounter());
                 translationTextComponent.getStyle().setColor(TextFormatting.BLUE);
                 player.sendStatusMessage(translationTextComponent,false);
             }
+            return true;
         }
         return false;
     }

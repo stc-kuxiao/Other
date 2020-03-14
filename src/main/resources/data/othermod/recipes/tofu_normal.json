@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "othermod:tofu_block_normal"
+    }
+  ],
+  "result": {
+    "item": "othermod:tofu_normal",
+    "count": 4
+  }
+}

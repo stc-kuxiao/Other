@@ -31,6 +31,7 @@ public class ModItems {
     public static Item tofuNormal = new BaseFoodItem("tofu_normal",2,1.0f);
     public static Item tofuTender = new BaseFoodItem("tofu_tender",2,1.2f);
     public static Item tofuStone = new BaseItem("tofu_stone");
+    public static Item tofuIron = new BaseItem("tofu_iron");
     public static Item salt = new BaseItem("salt");
     public static Item bitternBottle = new BitternBottle("bittern_bottle");
 
