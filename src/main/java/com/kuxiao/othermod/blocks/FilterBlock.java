@@ -2,7 +2,7 @@ package com.kuxiao.othermod.blocks;
 
 import com.kuxiao.othermod.base.BaseBlock;
 import com.kuxiao.othermod.tilesentities.FilterBlockTileEntity;
-import com.kuxiao.othermod.tilesentities.ModTileEntitiesType;
+import com.kuxiao.othermod.Init.ModTileEntitiesType;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;

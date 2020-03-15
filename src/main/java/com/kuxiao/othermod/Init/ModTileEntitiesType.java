@@ -1,6 +1,8 @@
-package com.kuxiao.othermod.tilesentities;
+package com.kuxiao.othermod.Init;
 
-import com.kuxiao.othermod.Init.ModBlocks;
+import com.kuxiao.othermod.tilesentities.CounterBlockTileEntity;
+import com.kuxiao.othermod.tilesentities.FilterBlockTileEntity;
+import com.kuxiao.othermod.tilesentities.SievesBlockTileEntity;
 import net.minecraft.tileentity.TileEntityType;
 
 public class ModTileEntitiesType {

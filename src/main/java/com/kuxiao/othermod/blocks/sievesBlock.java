@@ -4,7 +4,7 @@ import com.kuxiao.othermod.Init.ModBlocks;
 import com.kuxiao.othermod.Init.ModItems;
 import com.kuxiao.othermod.base.BaseGlass;
 import com.kuxiao.othermod.Util.Utils;
-import com.kuxiao.othermod.tilesentities.ModTileEntitiesType;
+import com.kuxiao.othermod.Init.ModTileEntitiesType;
 import com.kuxiao.othermod.tilesentities.SievesBlockTileEntity;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.SoundType;

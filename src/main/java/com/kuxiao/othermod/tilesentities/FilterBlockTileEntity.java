@@ -1,5 +1,6 @@
 package com.kuxiao.othermod.tilesentities;
 
+import com.kuxiao.othermod.Init.ModTileEntitiesType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;

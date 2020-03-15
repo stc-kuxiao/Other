@@ -1,5 +1,6 @@
 package com.kuxiao.othermod.tilesentities;
 
+import com.kuxiao.othermod.Init.ModTileEntitiesType;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.tileentity.TileEntity;
 

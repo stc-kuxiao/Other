@@ -1,11 +1,13 @@
 package com.kuxiao.othermod.Init;
 
 import com.kuxiao.othermod.base.BaseFluidBlock;
+import com.kuxiao.othermod.base.BaseTree;
 import com.kuxiao.othermod.blocks.*;
 import com.kuxiao.othermod.blocks.Tofu.IronTofu;
 import com.kuxiao.othermod.blocks.Tofu.NormalTofu;
 import com.kuxiao.othermod.blocks.Tofu.StoneTofu;
 import com.kuxiao.othermod.blocks.Tofu.TofuBlockTender;
+import com.kuxiao.othermod.blocks.Tree.GrapefruitTree;
 import net.minecraft.block.Block;
 
 import java.util.ArrayList;
@@ -34,6 +36,7 @@ public class ModBlocks {
     public static Block tofuBlockIron = new IronTofu("tofu_block_iron",2,2.0f);
     public static Block saltField = new SaltField("salt_field");
 
+    public static BaseTree grapefruitTree = new BaseTree("grapefruit",new GrapefruitTree());
 
 
 }

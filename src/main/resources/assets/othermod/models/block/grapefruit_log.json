@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "othermod:block/grapefruit_log_top",
+        "side": "othermod:block/grapefruit_log"
+    }
+}

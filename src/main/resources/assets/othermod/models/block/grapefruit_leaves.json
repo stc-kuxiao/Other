@@ -1,0 +1,6 @@
+{
+    "parent": "block/leaves",
+    "textures": {
+        "all": "othermod:block/grapefruit_leaves"
+    }
+}

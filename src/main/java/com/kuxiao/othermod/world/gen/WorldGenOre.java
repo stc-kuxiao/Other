@@ -31,13 +31,33 @@ public class WorldGenOre{
 
     public static void setupOreGenerationOverWorld(Block block, int size, int count, int bottomOffset, int maximum){
         for(Biome biome:ForgeRegistries.BIOMES){
-            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,Biome.createDecoratedFeature(Feature.ORE,new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, block.getDefaultState(),size), Placement.COUNT_RANGE,new CountRangeConfig(count, bottomOffset, 0, maximum)));
+            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+                    Biome.createDecoratedFeature(
+                            Feature.ORE,
+                            new OreFeatureConfig(
+                                    OreFeatureConfig.FillerBlockType.NATURAL_STONE,
+                                    block.getDefaultState(),size
+                            ),
+                            Placement.COUNT_RANGE,
+                            new CountRangeConfig(count, bottomOffset, 0, maximum)
+                    )
+            );
         }
     }
 
     public static void setupOreGenerationNether(Block block, int size, int count, int bottomOffset, int maximum){
         for(Biome biome:ForgeRegistries.BIOMES){
-            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,Biome.createDecoratedFeature(Feature.ORE,new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NETHERRACK, block.getDefaultState(),size), Placement.COUNT_RANGE,new CountRangeConfig(count, bottomOffset, 0, maximum)));
+            biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES,
+                    Biome.createDecoratedFeature(
+                            Feature.ORE,
+                            new OreFeatureConfig(
+                                    OreFeatureConfig.FillerBlockType.NETHERRACK,
+                                    block.getDefaultState(),size
+                            ),
+                            Placement.COUNT_RANGE,
+                            new CountRangeConfig(count, bottomOffset, 0, maximum)
+                    )
+            );
         }
     }
 

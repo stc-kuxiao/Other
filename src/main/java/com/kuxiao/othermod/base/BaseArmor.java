@@ -11,10 +11,9 @@ import java.util.Arrays;
 
 public class BaseArmor {
     private static final Item.Properties PROPERTIES =  new Item.Properties().group(Utils.itemGroup);
-    private Item[] items;
+    private Item[] items  = new Item[4];
 
     public BaseArmor(String name, IArmorMaterial materialIn){
-        items = new Item[4];
         items[0] = new ArmorItem(materialIn, EquipmentSlotType.HEAD,PROPERTIES).setRegistryName(name+"_helmet");
         items[1] = new ArmorItem(materialIn, EquipmentSlotType.CHEST,PROPERTIES).setRegistryName(name+"_chestplate");
         items[2] = new ArmorItem(materialIn, EquipmentSlotType.LEGS,PROPERTIES).setRegistryName(name+"_leggings");
