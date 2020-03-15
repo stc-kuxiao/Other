@@ -3,8 +3,12 @@ package com.kuxiao.othermod.base;
 
 import com.kuxiao.othermod.Init.ModBlocks;
 import com.kuxiao.othermod.Othermod;
+import com.kuxiao.othermod.blocks.Tree.grapefruitLeavesBlock;
 import com.kuxiao.othermod.blocks.Tree.saplingBlock;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
+import net.minecraft.block.LogBlock;
+import net.minecraft.block.RotatedPillarBlock;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.trees.Tree;
@@ -20,7 +24,7 @@ public class BaseTree {
         blocks[1] = new saplingBlock(tree, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().tickRandomly().hardnessAndResistance(0.0f).sound(SoundType.PLANT)).setRegistryName(Othermod.MODID,name+"_sapling");
         blocks[2] =  new LogBlock(MaterialColor.WOOD, Block.Properties.create(Material.WOOD, MaterialColor.OBSIDIAN).hardnessAndResistance(2.0F).sound(SoundType.WOOD)).setRegistryName(Othermod.MODID,name+"_log");
         blocks[3] = new RotatedPillarBlock(Block.Properties.create(Material.WOOD, MaterialColor.WOOD).hardnessAndResistance(2.0F).sound(SoundType.WOOD)).setRegistryName(Othermod.MODID,name+"_wood");
-        blocks[4] = new LeavesBlock(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F).tickRandomly().sound(SoundType.PLANT)).setRegistryName(Othermod.MODID,name+"_leaves");
+        blocks[4] = new grapefruitLeavesBlock(Block.Properties.create(Material.LEAVES).hardnessAndResistance(0.2F).tickRandomly().sound(SoundType.PLANT)).setRegistryName(Othermod.MODID,name+"_leaves");
         ModBlocks.MODBLOCK.addAll(Arrays.asList(blocks));
     }
 

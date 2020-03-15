@@ -2,6 +2,7 @@
 As a test mod, most of it is copied (XD
 now has:
 exp plant,corn plant,paper plant
+Grapefruit Tree
 exp ore
 obsidian block,obsidian ingot
 all obsidian tools
@@ -38,6 +39,7 @@ Destroying mature crops will drop paper
 作为一个测试mod，这里面绝大部分是抄的（XD
 现阶段添加的东西：
 经验作物，玉米作物，纸作物，牛排作物
+柚子树
 经验矿石，
 黑曜石块，黑曜石锭
 黑曜石工具全套

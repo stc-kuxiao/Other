@@ -7,6 +7,7 @@
   "item.othermod.raw_corn": "Rew Corn",
   "item.othermod.corn": "Corn",
   "item.othermod.salt": "Salt",
+  "item.othermod.grapefruit": "Grapefruit",
   "item.othermod.oil_bucket": "Oil Bucket",
   "item.othermod.bean_milk_bucket": "Bean Milk Bucket",
   "item.othermod.bittern_bottle": "Bittern Bottle",
@@ -47,5 +48,7 @@
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "white-list item is:%s",
   "message.othermod.sieves": "this sieves input<%s>dirt",
+  "othermod.tip.grapefruit_leaves_1": "Grapefruits grow on naturally-grown or artificially grown grapefruit trees",
+  "othermod.tip.grapefruit_leaves_2": "There are three stages of grapefruit growth. \nIn the third stage, you can get 0 ~ 2 grapefruits by right-clicking on the leaves.",
   "itemGroup.othermod": "Other Mod"
 }

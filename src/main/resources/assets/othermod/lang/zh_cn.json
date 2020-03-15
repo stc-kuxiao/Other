@@ -7,6 +7,7 @@
   "item.othermod.raw_corn": "玉米棒子",
   "item.othermod.corn": "熟玉米",
   "item.othermod.salt": "盐",
+  "item.othermod.grapefruit": "柚子",
   "item.othermod.oil_bucket": "油桶",
   "item.othermod.bean_milk_bucket": "豆浆桶",
   "item.othermod.bittern_bottle": "卤水瓶",
@@ -47,5 +48,7 @@
   "message.othermod.counter": "count is:%d",
   "message.othermod.sitem": "白名单物品:%s",
   "message.othermod.sieves": "这个筛子筛过了<%s>泥土",
+  "othermod.tip.grapefruit_leaves_1": "在自然生成或人工种植的柚子树上会有柚子生长",
+  "othermod.tip.grapefruit_leaves_2": "柚子生长有三个阶段，\n在第三个阶段时右键树叶可以获得0~2个柚子",
   "itemGroup.othermod": "Other Mod"
 }

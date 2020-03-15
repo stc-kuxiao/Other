@@ -45,4 +45,5 @@ public class BitternBottle extends Item {
         }
         return super.onItemRightClick(worldIn, playerIn, handIn);
     }
+
 }
